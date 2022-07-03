@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="19" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-02T18:12:39 EDT" name="Zara" finished-at="2022-07-02T18:15:10 EDT" duration-ms="150544">
+    <groups>
+    </groups>
+    <test started-at="2022-07-02T18:12:39 EDT" name="ZaraTest" finished-at="2022-07-02T18:15:10 EDT" duration-ms="150544">
+      <class name="com.rem.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:20 EDT" name="setUp" finished-at="2022-07-02T18:13:25 EDT" duration-ms="4758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTitleTest()[pri:1, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:25 EDT" name="homePageTitleTest" finished-at="2022-07-02T18:13:25 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:25 EDT" name="tearDown" finished-at="2022-07-02T18:13:25 EDT" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:25 EDT" name="setUp" finished-at="2022-07-02T18:13:29 EDT" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="zaraLogoTest()[pri:2, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:29 EDT" name="zaraLogoTest" finished-at="2022-07-02T18:13:30 EDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zaraLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:30 EDT" name="tearDown" finished-at="2022-07-02T18:13:30 EDT" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:30 EDT" name="setUp" finished-at="2022-07-02T18:13:34 EDT" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageButtonTest()[pri:3, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:34 EDT" name="loginPageButtonTest" finished-at="2022-07-02T18:13:37 EDT" duration-ms="2840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.HomePageTest@3c73951]" started-at="2022-07-02T18:13:37 EDT" name="tearDown" finished-at="2022-07-02T18:13:38 EDT" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rem.qa.testcases.HomePageTest -->
+      <class name="com.rem.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:12:40 EDT" name="setUp" finished-at="2022-07-02T18:12:50 EDT" duration-ms="10216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:12:50 EDT" name="loginTest" data-provider="getLoginData" finished-at="2022-07-02T18:12:51 EDT" duration-ms="1194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paresh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@12123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:12:51 EDT" name="tearDown" finished-at="2022-07-02T18:12:52 EDT" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:12:52 EDT" name="setUp" finished-at="2022-07-02T18:12:59 EDT" duration-ms="6716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:12:59 EDT" name="loginTest" data-provider="getLoginData" finished-at="2022-07-02T18:13:00 EDT" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[p.ranaut@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test#1212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:00 EDT" name="tearDown" finished-at="2022-07-02T18:13:01 EDT" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:01 EDT" name="setUp" finished-at="2022-07-02T18:13:07 EDT" duration-ms="6872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:07 EDT" name="loginTest" data-provider="getLoginData" finished-at="2022-07-02T18:13:09 EDT" duration-ms="1249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[m.pcg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12312312w12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:09 EDT" name="tearDown" finished-at="2022-07-02T18:13:09 EDT" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:09 EDT" name="setUp" finished-at="2022-07-02T18:13:18 EDT" duration-ms="8045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:18 EDT" name="loginTest" data-provider="getLoginData" finished-at="2022-07-02T18:13:19 EDT" duration-ms="1423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ereaeda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.1321412E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.LoginPageTest@759d26fb]" started-at="2022-07-02T18:13:19 EDT" name="tearDown" finished-at="2022-07-02T18:13:20 EDT" duration-ms="814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rem.qa.testcases.LoginPageTest -->
+      <class name="com.rem.qa.testcases.SignUpPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:38 EDT" name="setup" finished-at="2022-07-02T18:13:45 EDT" duration-ms="6536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateCompanyListSize()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:45 EDT" name="ValidateCompanyListSize" finished-at="2022-07-02T18:13:45 EDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCompanyListSize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:45 EDT" name="tearDown" finished-at="2022-07-02T18:13:45 EDT" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:45 EDT" name="setup" finished-at="2022-07-02T18:13:54 EDT" duration-ms="8912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateFollowUsListSize()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:54 EDT" name="ValidateFollowUsListSize" finished-at="2022-07-02T18:13:54 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFollowUsListSize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:54 EDT" name="tearDown" finished-at="2022-07-02T18:13:55 EDT" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:13:55 EDT" name="setup" finished-at="2022-07-02T18:14:04 EDT" duration-ms="9332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateHelpListSize()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:04 EDT" name="ValidateHelpListSize" finished-at="2022-07-02T18:14:04 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHelpListSize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:04 EDT" name="tearDown" finished-at="2022-07-02T18:14:05 EDT" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:05 EDT" name="setup" finished-at="2022-07-02T18:14:15 EDT" duration-ms="9421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidatePoliciesListSize()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:15 EDT" name="ValidatePoliciesListSize" finished-at="2022-07-02T18:14:15 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePoliciesListSize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:15 EDT" name="tearDown" finished-at="2022-07-02T18:14:15 EDT" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:15 EDT" name="setup" finished-at="2022-07-02T18:14:25 EDT" duration-ms="10018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:25 EDT" name="createAccount" data-provider="getSignUpData" finished-at="2022-07-02T18:14:28 EDT" duration-ms="2805" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[papsdpsap@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass.412412312]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass.412412312]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lina]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Perry]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span> is not clickable at point (253,516) because another element <div class="ReactModal__Overlay ReactModal__Overlay--after-open modal__overlay"> obscures it
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-L1EEL2J1', ip: '10.14.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e67112f9-8efb-4afc-9310-81587db3743b, clickElement {id=7e824008-01a8-4a35-9fc3-4fff15745ca5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:58546, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23768, moz:profile: C:\Users\15199\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58546/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (e67112f9-8efb-4afc-9310-81587db3743b)] -> xpath: //span[text()='Create Account']]
+Session ID: e67112f9-8efb-4afc-9310-81587db3743b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span> is not clickable at point (253,516) because another element <div class="ReactModal__Overlay ReactModal__Overlay--after-open modal__overlay"> obscures it
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-L1EEL2J1', ip: '10.14.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e67112f9-8efb-4afc-9310-81587db3743b, clickElement {id=7e824008-01a8-4a35-9fc3-4fff15745ca5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:58546, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23768, moz:profile: C:\Users\15199\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58546/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (e67112f9-8efb-4afc-9310-81587db3743b)] -> xpath: //span[text()='Create Account']]
+Session ID: e67112f9-8efb-4afc-9310-81587db3743b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+at com.sun.proxy.$Proxy21.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy20.click(Unknown Source)
+at com.rem.qa.pages.SignUpPage.submitCreateAccForm(SignUpPage.java:77)
+at com.rem.qa.testcases.SignUpPageTest.createAccount(SignUpPageTest.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:28 EDT" name="tearDown" finished-at="2022-07-02T18:14:29 EDT" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:29 EDT" name="setup" finished-at="2022-07-02T18:14:38 EDT" duration-ms="9382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:38 EDT" name="createAccount" data-provider="getSignUpData" finished-at="2022-07-02T18:14:42 EDT" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xxaxsasxas@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass.65654654]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass.65654654]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Simon]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lynn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:42 EDT" name="tearDown" finished-at="2022-07-02T18:14:43 EDT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:43 EDT" name="setup" finished-at="2022-07-02T18:14:52 EDT" duration-ms="9098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:52 EDT" name="createAccount" data-provider="getSignUpData" finished-at="2022-07-02T18:14:55 EDT" duration-ms="3586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[crbrybtterfw@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test_tty4553r43]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_tty4553r43]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kelly]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Soft]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:55 EDT" name="tearDown" finished-at="2022-07-02T18:14:56 EDT" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:14:56 EDT" name="setup" finished-at="2022-07-02T18:15:05 EDT" duration-ms="9344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:15:05 EDT" name="createAccount" data-provider="getSignUpData" finished-at="2022-07-02T18:15:09 EDT" duration-ms="3574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sfcftttedw33@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test.21434112]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test.21434112]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mark]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Walls]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rem.qa.testcases.SignUpPageTest@3d5c822d]" started-at="2022-07-02T18:15:09 EDT" name="tearDown" finished-at="2022-07-02T18:15:10 EDT" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rem.qa.testcases.SignUpPageTest -->
+    </test> <!-- ZaraTest -->
+  </suite> <!-- Zara -->
+</testng-results>

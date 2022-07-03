@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Zara" class="navigator-link">
+              <span class="suite-name border-failed">Zara</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Zara" class="navigator-link ">
+                    <span>C:\Users\15199\Desktop\QA\Selenium_WorkSpace\FirstMavenProject\src\main\resouces\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Zara" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Zara" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Zara" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Zara" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Zara" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Zara" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 1 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Zara" class="hide-methods failed suite-Zara"> (hide)</a> <!-- hide-methods failed suite-Zara -->
+                      <a href="#" panel-name="suite-Zara" class="show-methods failed suite-Zara"> (show)</a> <!-- show-methods failed suite-Zara -->
+                    </span>
+                    <div class="method-list-content failed suite-Zara">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="createAccount(papsdpsap@gmail.com, Pass.412412312, Pass.412412312, Lina, Perry)">createAccount(papsdpsap@gmail.com, Pass.412412312, Pass.412412312, Lina, Perry)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Zara -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Zara" class="hide-methods passed suite-Zara"> (hide)</a> <!-- hide-methods passed suite-Zara -->
+                      <a href="#" panel-name="suite-Zara" class="show-methods passed suite-Zara"> (show)</a> <!-- show-methods passed suite-Zara -->
+                    </span>
+                    <div class="method-list-content passed suite-Zara">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="ValidateCompanyListSize">ValidateCompanyListSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="ValidateFollowUsListSize">ValidateFollowUsListSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="ValidateHelpListSize">ValidateHelpListSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="ValidatePoliciesListSize">ValidatePoliciesListSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="createAccount(crbrybtterfw@yahoo.com, Test_tty4553r43, Test_tty4553r43, Kelly, Soft)">createAccount(crbrybtterfw@yahoo.com, Test_tty4553r43, Test_tty4553r43, Kelly, Soft)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="createAccount(sfcftttedw33@hotmail.com, Test.21434112, Test.21434112, Mark, Walls)">createAccount(sfcftttedw33@hotmail.com, Test.21434112, Test.21434112, Mark, Walls)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.SignUpPageTest" class="method navigator-link" hash-for-method="createAccount(xxaxsasxas@gmail.com, Pass.65654654, Pass.65654654, Simon, Lynn)">createAccount(xxaxsasxas@gmail.com, Pass.65654654, Pass.65654654, Simon, Lynn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="loginPageButtonTest">loginPageButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(p.ranaut@gmail.com, test#1212)">loginTest(p.ranaut@gmail.com, test#1212)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(paresh@yahoo.com, pass@12123)">loginTest(paresh@yahoo.com, pass@12123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(m.pcg@gmail.com, 12312312w12)">loginTest(m.pcg@gmail.com, 12312312w12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(ereaeda@gmail.com, 2.1321412E7)">loginTest(ereaeda@gmail.com, 2.1321412E7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Zara" title="com.rem.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="zaraLogoTest">zaraLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Zara -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Zara" class="panel Zara">
+          <div class="suite-Zara-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rem.qa.testcases.SignUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(papsdpsap@gmail.com, Pass.412412312, Pass.412412312, Lina, Perry)">
+                  </a> <!-- createAccount(papsdpsap@gmail.com, Pass.412412312, Pass.412412312, Lina, Perry) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(papsdpsap@gmail.com, Pass.412412312, Pass.412412312, Lina, Perry)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;span&gt; is not clickable at point (253,516) because another element &lt;div class=&quot;ReactModal__Overlay ReactModal__Overlay--after-open modal__overlay&quot;&gt; obscures it
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;LAPTOP-L1EEL2J1&apos;, ip: &apos;10.14.0.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e67112f9-8efb-4afc-9310-81587db3743b, clickElement {id=7e824008-01a8-4a35-9fc3-4fff15745ca5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 101.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220608170832, moz:debuggerAddress: localhost:58546, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23768, moz:profile: C:\Users\15199\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58546/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (e67112f9-8efb-4afc-9310-81587db3743b)] -&gt; xpath: //span[text()=&apos;Create Account&apos;]]
+Session ID: e67112f9-8efb-4afc-9310-81587db3743b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:414)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:427)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at com.rem.qa.pages.SignUpPage.submitCreateAccForm(SignUpPage.java:77)
+	at com.rem.qa.testcases.SignUpPageTest.createAccount(SignUpPageTest.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zara-class-failed -->
+          <div class="suite-Zara-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rem.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageButtonTest">
+                  </a> <!-- loginPageButtonTest -->
+                  <span class="method-name">loginPageButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zaraLogoTest">
+                  </a> <!-- zaraLogoTest -->
+                  <span class="method-name">zaraLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zara-class-passed -->
+          <div class="suite-Zara-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rem.qa.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(p.ranaut@gmail.com, test#1212)">
+                  </a> <!-- loginTest(p.ranaut@gmail.com, test#1212) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(p.ranaut@gmail.com, test#1212)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(paresh@yahoo.com, pass@12123)">
+                  </a> <!-- loginTest(paresh@yahoo.com, pass@12123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(paresh@yahoo.com, pass@12123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(m.pcg@gmail.com, 12312312w12)">
+                  </a> <!-- loginTest(m.pcg@gmail.com, 12312312w12) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(m.pcg@gmail.com, 12312312w12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(ereaeda@gmail.com, 2.1321412E7)">
+                  </a> <!-- loginTest(ereaeda@gmail.com, 2.1321412E7) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(ereaeda@gmail.com, 2.1321412E7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zara-class-passed -->
+          <div class="suite-Zara-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rem.qa.testcases.SignUpPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateCompanyListSize">
+                  </a> <!-- ValidateCompanyListSize -->
+                  <span class="method-name">ValidateCompanyListSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateFollowUsListSize">
+                  </a> <!-- ValidateFollowUsListSize -->
+                  <span class="method-name">ValidateFollowUsListSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateHelpListSize">
+                  </a> <!-- ValidateHelpListSize -->
+                  <span class="method-name">ValidateHelpListSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidatePoliciesListSize">
+                  </a> <!-- ValidatePoliciesListSize -->
+                  <span class="method-name">ValidatePoliciesListSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(crbrybtterfw@yahoo.com, Test_tty4553r43, Test_tty4553r43, Kelly, Soft)">
+                  </a> <!-- createAccount(crbrybtterfw@yahoo.com, Test_tty4553r43, Test_tty4553r43, Kelly, Soft) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(crbrybtterfw@yahoo.com, Test_tty4553r43, Test_tty4553r43, Kelly, Soft)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(sfcftttedw33@hotmail.com, Test.21434112, Test.21434112, Mark, Walls)">
+                  </a> <!-- createAccount(sfcftttedw33@hotmail.com, Test.21434112, Test.21434112, Mark, Walls) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(sfcftttedw33@hotmail.com, Test.21434112, Test.21434112, Mark, Walls)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount(xxaxsasxas@gmail.com, Pass.65654654, Pass.65654654, Simon, Lynn)">
+                  </a> <!-- createAccount(xxaxsasxas@gmail.com, Pass.65654654, Pass.65654654, Simon, Lynn) -->
+                  <span class="method-name">createAccount</span>
+                  <span class="parameters">(xxaxsasxas@gmail.com, Pass.65654654, Pass.65654654, Simon, Lynn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Zara-class-passed -->
+        </div> <!-- panel Zara -->
+        <div panel-name="test-xml-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\15199\Desktop\QA\Selenium_WorkSpace\FirstMavenProject\src\main\resouces\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; name=&quot;Zara&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReportNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;ZaraTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rem.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.rem.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.rem.qa.testcases.SignUpPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ZaraTest --&gt;
+&lt;/suite&gt; &lt;!-- Zara --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Zara</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ZaraTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Zara</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Zara</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Zara');
+function tableData_Zara() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createAccount')
+data.setCell(0, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(0, 3, 3586);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createAccount')
+data.setCell(1, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(1, 3, 3574);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAccount')
+data.setCell(2, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(2, 3, 3474);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginPageButtonTest')
+data.setCell(3, 2, 'com.rem.qa.testcases.HomePageTest')
+data.setCell(3, 3, 2840);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createAccount')
+data.setCell(4, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(4, 3, 2805);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'com.rem.qa.testcases.LoginPageTest')
+data.setCell(5, 3, 1423);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'com.rem.qa.testcases.LoginPageTest')
+data.setCell(6, 3, 1253);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTest')
+data.setCell(7, 2, 'com.rem.qa.testcases.LoginPageTest')
+data.setCell(7, 3, 1249);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.rem.qa.testcases.LoginPageTest')
+data.setCell(8, 3, 1194);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'zaraLogoTest')
+data.setCell(9, 2, 'com.rem.qa.testcases.HomePageTest')
+data.setCell(9, 3, 298);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ValidateCompanyListSize')
+data.setCell(10, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(10, 3, 19);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidateHelpListSize')
+data.setCell(11, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(11, 3, 18);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ValidateFollowUsListSize')
+data.setCell(12, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(12, 3, 16);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'homePageTitleTest')
+data.setCell(13, 2, 'com.rem.qa.testcases.HomePageTest')
+data.setCell(13, 3, 11);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ValidatePoliciesListSize')
+data.setCell(14, 2, 'com.rem.qa.testcases.SignUpPageTest')
+data.setCell(14, 3, 10);
+window.suiteTableData['Zara']= { tableData: data, tableDiv: 'times-div-Zara'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Zara">
+              </div> <!-- times-div-Zara -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Zara</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.rem.qa.testcases.LoginPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">forgotPasswordTest</span>
+                <br/>
+                <span class="ignored-method-name">validateLoginPageTitleTest</span>
+                <br/>
+                <span class="ignored-method-name">loginTest</span>
+                <br/>
+                <span class="ignored-method-name">createAccountTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Zara" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rem.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(paresh@yahoo.com, pass@12123)</span>
+                <span class="method-start">10217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(p.ranaut@gmail.com, test#1212)</span>
+                <span class="method-start">18859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(m.pcg@gmail.com, 12312312w12)</span>
+                <span class="method-start">27682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29740 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(ereaeda@gmail.com, 2.1321412E7)</span>
+                <span class="method-start">37786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39210 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rem.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40027 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">44785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45418 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">zaraLogoTest</span>
+                <span class="method-start">49580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49879 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageButtonTest</span>
+                <span class="method-start">54635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">57476 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rem.qa.testcases.SignUpPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateCompanyListSize</span>
+                <span class="method-start">64794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateFollowUsListSize</span>
+                <span class="method-start">74449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">75239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidateHelpListSize</span>
+                <span class="method-start">84571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84590 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">85421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidatePoliciesListSize</span>
+                <span class="method-start">94843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccount(papsdpsap@gmail.com, Pass.412412312, Pass.412412312, Lina, Perry)</span>
+                <span class="method-start">105597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">108405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">109229 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount(xxaxsasxas@gmail.com, Pass.65654654, Pass.65654654, Simon, Lynn)</span>
+                <span class="method-start">118611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122086 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">122827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount(crbrybtterfw@yahoo.com, Test_tty4553r43, Test_tty4553r43, Kelly, Soft)</span>
+                <span class="method-start">131925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">136352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount(sfcftttedw33@hotmail.com, Test.21434112, Test.21434112, Mark, Walls)</span>
+                <span class="method-start">145697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149272 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

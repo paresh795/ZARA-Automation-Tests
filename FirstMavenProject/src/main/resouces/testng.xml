@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite parallel="false" thread-count="2" name="Zara Automation Framework">
+
+<listeners>
+
+<listener class-name = "com.qa.ExtentReportListener.ExtentReportNG"/>
+</listeners>
+
+  <test name="Zara Automation Tests">
+    <classes>
+      <class name="com.rem.qa.testcases.LoginPageTest"/>
+      <class name="com.rem.qa.testcases.HomePageTest"/>
+      <class name="com.rem.qa.testcases.SignUpPageTest"/>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
